@@ -1,13 +1,15 @@
-/*
- *Actually made this to help me think of a
- *title for my third story, hope it helps you
- *too! (≧∇≦)/
- *
- *
- *
- *Originally wrote in C++
- *Remade in Java for practice
- */
+/*Silly attempt at a title generator
+*
+*
+Actually made this to help me think of a
+title for my third story, hope it helps you too!
+Thanks! (≧∇≦)/
+
+Originally wrote in C++
+Remade in Java for practice
+*
+*
+*/
 
 import java.util.*;
 
@@ -19,7 +21,7 @@ public class Title
     }
 
     String adjectives[] = {
-            "Ethereal", "Earth", "Original",
+            "Ethereal", "Eternal", "Original",
             "Time", "Greatest", "Mystic",
             "Infinite", "Infinity", "Oldest",
             "First", "Forgotten", "Last",
@@ -31,7 +33,7 @@ public class Title
             "God", "Signal", "Forever",
             "Great", "Prime", "Death",
             "End", "Apocalypse", "Grim",
-            "Forsaken", "Eternal", "Unlimited",
+            "Forsaken", "Grave", "Unlimited",
             "Inward", "Wisest", "Fallen",
             "Cosmic", "Stellar", "Star",
             "Myth", "Mystery", "Existence",
@@ -39,7 +41,7 @@ public class Title
             "Bliss", "Beautiful", "World",
             "Beauty", "Deadliest", "Enduring",
             "Dream", "Nameless", "Kindest",
-            "Mind", "Rage"};
+            "Mind", "Rage", "Soul"};
     String nouns[] = {
             "Killer", "Whisper", "Hunter",
             "Marker", "Lover", "Jester",
@@ -74,7 +76,7 @@ public class Title
         System.out.println("By Wesley Lancaster 11/28/23\n"
                 + "-------------------\n");
 
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < 10; i++){
             System.out.println("The " + adjectives[rand.nextInt(adjectives.length)]
                     + " " + nouns[rand.nextInt(adjectives.length)] + "\n");
         }
